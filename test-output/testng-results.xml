@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-17T19:10:04Z" name="Suite" finished-at="2022-12-17T19:10:18Z" duration-ms="14289">
+    <groups>
+      <group name="Purchase">
+        <method signature="ALoginTest.submitOrder(java.util.HashMap)[pri:0, instance:com.zysk.addresshealth.tests.ALoginTest@4fad9bb2]" name="submitOrder" class="com.zysk.addresshealth.tests.ALoginTest"/>
+      </group> <!-- Purchase -->
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.errorValidation()[pri:0, instance:com.zysk.addresshealth.tests.ErrorValidationTest@4b3ed2f0]" name="errorValidation" class="com.zysk.addresshealth.tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2022-12-17T19:10:04Z" name="Test" finished-at="2022-12-17T19:10:18Z" duration-ms="14289">
+      <class name="com.zysk.addresshealth.tests.ALoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.zysk.addresshealth.tests.ALoginTest@4fad9bb2]" started-at="2022-12-17T19:10:11Z" name="launchApplication" finished-at="2022-12-17T19:10:13Z" duration-ms="2800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.zysk.addresshealth.tests.ALoginTest@4fad9bb2]" started-at="2022-12-17T19:10:13Z" name="submitOrder" data-provider="getData" finished-at="2022-12-17T19:10:14Z" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@1234, email=santhoshaug@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zysk.addresshealth.tests.ALoginTest@4fad9bb2]" started-at="2022-12-17T19:10:14Z" name="tearDown" finished-at="2022-12-17T19:10:14Z" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.zysk.addresshealth.tests.ALoginTest@4fad9bb2]" started-at="2022-12-17T19:10:14Z" name="launchApplication" finished-at="2022-12-17T19:10:18Z" duration-ms="3680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.zysk.addresshealth.tests.ALoginTest@4fad9bb2]" started-at="2022-12-17T19:10:18Z" name="submitOrder" data-provider="getData" finished-at="2022-12-17T19:10:18Z" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@1234, email=rachayya@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zysk.addresshealth.tests.ALoginTest@4fad9bb2]" started-at="2022-12-17T19:10:18Z" name="tearDown" finished-at="2022-12-17T19:10:18Z" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zysk.addresshealth.tests.ALoginTest -->
+      <class name="com.zysk.addresshealth.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.zysk.addresshealth.tests.ErrorValidationTest@4b3ed2f0]" started-at="2022-12-17T19:10:04Z" name="launchApplication" finished-at="2022-12-17T19:10:10Z" duration-ms="5392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="errorValidation()[pri:0, instance:com.zysk.addresshealth.tests.ErrorValidationTest@4b3ed2f0]" started-at="2022-12-17T19:10:10Z" name="errorValidation" finished-at="2022-12-17T19:10:10Z" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zysk.addresshealth.tests.ErrorValidationTest@4b3ed2f0]" started-at="2022-12-17T19:10:10Z" name="tearDown" finished-at="2022-12-17T19:10:10Z" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zysk.addresshealth.tests.ErrorValidationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
